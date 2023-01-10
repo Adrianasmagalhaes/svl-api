@@ -1,7 +1,7 @@
 const express = require("express");
 const db = require ('./config/db')
 const app = express()
-const port = 5000;
+const port = 10000;
 
 const routes = require('./routes/index')
  routes(app)
